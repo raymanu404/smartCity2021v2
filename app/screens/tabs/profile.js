@@ -430,13 +430,10 @@ const styles = StyleSheet.create({
     },
     profileContainer:{
         flex:2,
-        // justifyContent: "center",
         alignItems: "center",
         backgroundColor:"#FFF",
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
-        // paddingVertical:50,
-        // paddingHorizontal:30,
         marginTop:50,
     },
     userContainer:{
@@ -446,7 +443,7 @@ const styles = StyleSheet.create({
         height:100,
         paddingVertical:10,
         borderBottomRightRadius:150,
-        // marginTop:10,
+
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
     },
@@ -454,7 +451,6 @@ const styles = StyleSheet.create({
         flex:1,
         flexDirection:'row',
         justifyContent:"space-around",
-        // marginLeft:20,
     },
     userInfoContainer:{
        
@@ -465,7 +461,6 @@ const styles = StyleSheet.create({
         borderTopRightRadius:30,
         borderBottomLeftRadius:30,
         borderBottomRightRadius:30,
-        // paddingVertical:20,
         paddingHorizontal:30,
         marginTop:30,
     },
@@ -473,22 +468,17 @@ const styles = StyleSheet.create({
         flex:1,
         flexDirection:'row',
         justifyContent:"space-between",
-        // paddingLeft:20,
         alignItems:"center",
     },
     textInput:{
         flex:1,
-        // marginTop: Platform.OS === "android" ? 0 : -12,
         paddingLeft:10,
         textAlign:'center',
         color:"#FFF",
-        // marginBottom:10,
         fontSize:16,
         height:60,      
         borderBottomWidth:0,
         backgroundColor:"rgba(52, 152, 219, 0.01)",        
     },
-
-    
-    
+      
 });
